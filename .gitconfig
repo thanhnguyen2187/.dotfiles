@@ -1,0 +1,10 @@
+[credential]
+	helper = store
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[mergetool]
+	path = nvim
+[core]
+	editor = nvim

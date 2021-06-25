@@ -1,0 +1,10 @@
+" source ~/.vimrc
+
+set ideajoin
+set surround
+set exchange
+set commentary
+
+set nu
+set rnu
+set so=999

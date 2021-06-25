@@ -1,0 +1,8 @@
+name: emacs
+parent: default
+
+matches:
+  - trigger: ":org-title"
+    replace: "#+title: Untitled"
+  - trigger: ":org-expand-all"
+    replace: "#+startup: showeverything"

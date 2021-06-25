@@ -1,0 +1,13 @@
+{
+    "plantuml.render": "PlantUMLServer",
+    "plantuml.server": "https://www.plantuml.com/plantuml",
+    "editor.lineNumbers": "relative",
+    "editor.rulers": [80, 120],
+    // "editor.wordWrap": "off",
+    // "editor.wordWrapColumn": 80,
+    "[markdown]": {
+        "editor.wordWrap": "off",
+        // "editor.wordWrapColumn": 80,
+        "editor.quickSuggestions": false,
+    },
+}
