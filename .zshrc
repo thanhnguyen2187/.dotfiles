@@ -1,5 +1,6 @@
 # oh my zsh
 export ZSH=$HOME/.oh-my-zsh
+export ZSH_CUSTOM=$HOME/.oh-my-zsh/custom
 fpath=(
     $ZSH_CUSTOM/functions
     $ZSH_CUSTOM/completions
