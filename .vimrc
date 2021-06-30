@@ -150,6 +150,10 @@ call plug#begin('~/.vim/bundle')
         au BufEnter *.adoc,*.asciidoc call AsciidoctorMappings()
     augroup END
 
+    " todo.txt
+    Plug 'freitass/todo.txt-vim'
+
+
 call plug#end()
 
 """"""""""""
