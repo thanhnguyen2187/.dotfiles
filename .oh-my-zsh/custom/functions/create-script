@@ -1,0 +1,7 @@
+tee "$1.sh" << EOF > /dev/null
+#!/bin/bash
+
+# script commands here
+EOF
+chmod +x "./$1.sh"
+echo "$1.sh created!"
