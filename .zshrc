@@ -1,7 +1,8 @@
 # oh my zsh
 export ZSH=$HOME/.oh-my-zsh
 export ZSH_CUSTOM=$HOME/.oh-my-zsh/custom
- 
+export DISABLE_AUTO_TITLE='true'
+
 fpath=(
     $ZSH_CUSTOM/functions
     $ZSH_CUSTOM/completions
