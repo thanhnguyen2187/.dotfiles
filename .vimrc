@@ -60,6 +60,8 @@ call plug#begin('~/.vim/bundle')
             \'view.width': 28,
         \}
     Plug 'ryanoasis/vim-devicons'
+    Plug 'Yggdroot/indentLine'
+    let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
     """""""""""""""""
     " Code Editting "
@@ -94,6 +96,7 @@ call plug#begin('~/.vim/bundle')
 
     " JSON, YML, TOML
     Plug 'cespare/vim-toml'
+    Plug 'pedrohdz/vim-yaml-folds'
     autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
     " Rust
