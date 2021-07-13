@@ -55,11 +55,13 @@ call plug#begin('~/.vim/bundle')
     "     autocmd vimenter * NERDTree
     " Plug 'scrooloose/nerdtree-project-plugin'
     Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
-        " autocmd vimenter * CHADopen --nofocus
+        autocmd vimenter * CHADopen --nofocus
         let g:chadtree_settings={
             \'view.width': 28,
         \}
     Plug 'ryanoasis/vim-devicons'
+    Plug 'Yggdroot/indentLine'
+    let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
     """""""""""""""""
     " Code Editting "
