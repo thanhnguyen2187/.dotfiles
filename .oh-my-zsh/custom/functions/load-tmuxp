@@ -1,1 +1,3 @@
-yes | tmuxp load .tmuxp.yml
+FILENAME=${1:-.tmuxp.yml}
+
+yes | tmuxp load $FILENAME

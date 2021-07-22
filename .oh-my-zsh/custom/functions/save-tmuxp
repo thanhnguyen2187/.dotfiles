@@ -1,10 +1,12 @@
+FILENAME=${1:-.tmuxp.yml}
+
 (
     echo "yaml"
     echo "y"
-    echo "/tmp/.tmuxp.yml"
+    echo "/tmp/$FILENAME.yml"
     echo "y"
 ) | tmuxp freeze > /dev/null
-echo "tmuxp freezed to /tmp/.tmuxp.yml"
+echo "tmuxp freezed to /tmp/$FILENAME.yml"
 
-mv /tmp/.tmuxp.yml .
+mv /tmp/$FILENAME.yml .
 echo "The freezed file got moved back to the current location."
