@@ -362,3 +362,4 @@ set -g mode-keys vi
 
 # run '~/.tmux/plugins/tpm/tpm'
 bind X confirm-before kill-session
+bind S setw synchronize-panes
