@@ -110,6 +110,8 @@ call plug#begin('~/.vim/bundle')
     "     let g:vim_markdown_json_frontmatter = 1
     "     let g:vim_markdown_strikethrough = 1
     Plug 'SidOfc/mkdx'
+    " Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
+    "     let g:instant_markdown_logfile = '/tmp/instant_markdown.log'
 
     " Racket
     Plug 'wlangstroth/vim-racket'
