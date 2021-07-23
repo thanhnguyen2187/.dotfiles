@@ -14,4 +14,5 @@
 (require 'init-dashboard)
 (require 'init-evil)
 (require 'init-projectile)
+(require 'init-racket-mode)
 
