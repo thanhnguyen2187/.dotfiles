@@ -1,4 +1,4 @@
-FILENAME=${1:-.tmuxp.yml}
+FILENAME=${1:-.tmuxp}
 
 (
     echo "yaml"
