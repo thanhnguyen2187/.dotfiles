@@ -5,7 +5,7 @@
 # line containing `fpath=(~/.zfunc $fpath)` somewhere before `compinit` in your
 # ~/.zshrc.
 
-__exa() {
+_exa() {
     # Give completions using the `_arguments` utility function with
     # `-s` for option stacking like `exa -ab` for `exa -a -b` and
     # `-S` for delimiting options with `--` like in `exa -- -a`.
@@ -56,4 +56,4 @@ __exa() {
         '*:filename:_files'
 }
 
-__exa
+_exa
