@@ -131,6 +131,7 @@ call plug#begin('~/.vim/bundle')
     "     let g:barbaric_ime = 'ibus'
     " Plug 'vimwiki/vimwiki'
     " Plug 'vimoutliner/vimoutliner'
+    Plug 'inkarkat/vim-ReplaceWithRegister'
 
     " Asciidoc
     Plug 'habamax/vim-asciidoctor'
