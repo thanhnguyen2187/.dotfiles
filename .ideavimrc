@@ -4,6 +4,7 @@ set ideajoin
 set surround
 set exchange
 set commentary
+set ReplaceWithRegister
 
 set nu
 set rnu
