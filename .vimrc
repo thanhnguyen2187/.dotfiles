@@ -112,6 +112,10 @@ call plug#begin('~/.vim/bundle')
     Plug 'SidOfc/mkdx'
     " Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
     "     let g:instant_markdown_logfile = '/tmp/instant_markdown.log'
+    Plug 'ferrine/md-img-paste.vim'
+    autocmd FileType markdown nmap <buffer><silent> <leader>p :call mdip#MarkdownClipboardImage()<CR>
+        let g:mdip_imgdir = 'images'
+        let g:mdip_imgname = 'image'
 
     " Racket
     Plug 'wlangstroth/vim-racket'
