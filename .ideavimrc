@@ -5,6 +5,7 @@ set surround
 set exchange
 set commentary
 set ReplaceWithRegister
+set textobj-indent
 
 set nu
 set rnu
