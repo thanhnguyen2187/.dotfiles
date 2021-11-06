@@ -163,6 +163,8 @@ call plug#begin('~/.vim/bundle')
     " todo.txt
     Plug 'freitass/todo.txt-vim'
 
+    " Latex
+    Plug 'lervag/vimtex'
 
 call plug#end()
 
