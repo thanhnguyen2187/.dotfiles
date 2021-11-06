@@ -60,8 +60,8 @@ call plug#begin('~/.vim/bundle')
             \'view.width': 28,
         \}
     Plug 'ryanoasis/vim-devicons'
-    Plug 'Yggdroot/indentLine'
-    let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+    " Plug 'Yggdroot/indentLine'
+    " let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
     """""""""""""""""
     " Code Editting "
