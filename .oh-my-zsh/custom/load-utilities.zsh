@@ -1,4 +1,4 @@
 for file ($ZSH_CUSTOM/utilities/*.zsh(N)); do
-  source $file
+    source $file
 done
 unset file
