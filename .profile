@@ -21,6 +21,4 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-export PATH="$HOME/.poetry/bin:$PATH"
-
 source "$HOME/.cargo/env"
