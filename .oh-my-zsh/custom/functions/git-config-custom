@@ -1,0 +1,24 @@
+TYPE=${1:-personal}
+
+case $TYPE in
+personal)
+    NAME="Thanh Nguyen"
+    EMAIL="thanhnguyen2187@gmail"
+;;
+teko)
+    NAME="Thanh Nguyen"
+    EMAIL="thanh.nh@teko.vn"
+;;
+stephero)
+    NAME="Thanh Nguyen"
+    EMAIL="thanh.nh@xantus.network"
+;;
+esac
+
+if [[ -z $NAME || -z $EMAIL ]]; then
+    echo "Invalid argument: $TYPE"
+else
+    git config user.name $NAME
+    git config user.email $EMAIL
+    echo "Git's options on user set to $NAME and $EMAIL."
+fi
