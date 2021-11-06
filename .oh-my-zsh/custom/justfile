@@ -1,8 +1,8 @@
-new-completions NAME:
+create-completions NAME:
     touch ./completions/{{NAME}}.zsh
 
-new-functions NAME:
-    touch ./functions/{{NAME}}.zsh
+create-functions NAME:
+    touch ./functions/{{NAME}}
 
-new-utilities NAME:
+create-utilities NAME:
     touch ./utilities/{{NAME}}.zsh
