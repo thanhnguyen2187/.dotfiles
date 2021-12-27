@@ -106,6 +106,8 @@ require('packer').startup(function()
     })
   )
 
+  use 'janet-lang/janet.vim'
+
   use {
     'junegunn/fzf',
     run = './install --bin',
@@ -117,6 +119,11 @@ require('packer').startup(function()
   use 'tpope/vim-obsession'
   use 'tommcdo/vim-exchange'
   use 'inkarkat/vim-ReplaceWithRegister'
+  use 'junegunn/vim-easy-align'
+  vim.cmd [[
+    xmap ga <Plug>(EasyAlign)
+    nmap ga <Plug>(EasyAlign)
+  ]]
   use 'ntpeters/vim-better-whitespace'
   vim.g.better_whitespace_enabled = 1
   vim.g.strip_whitespace_on_save = 1
