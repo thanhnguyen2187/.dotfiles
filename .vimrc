@@ -47,3 +47,5 @@ endfunction
 
 command! SetClipboard :call s:setClipboard()
 command! UnsetClipboard :call s:unsetClipboard()
+" The mapping is needed since Neovim 0.6 map `Y` to `y$`
+map Y yy
