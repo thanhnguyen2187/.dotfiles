@@ -3,7 +3,7 @@ TYPE=${1:-personal}
 case $TYPE in
 personal)
     NAME="Thanh Nguyen"
-    EMAIL="thanhnguyen2187@gmail"
+    EMAIL="thanhnguyen2187@gmail.com"
 ;;
 teko)
     NAME="Thanh Nguyen"
