@@ -31,7 +31,7 @@ filetype plugin on
 filetype plugin indent on
 
 " Options to fix tmux
-" set background=dark
+set background=dark
 " set t_Co=256
 nmap <F3> i<C-R>=strftime("%Y-%m-%d %H:%M")<CR><Esc>
 imap <F3> <C-R>=strftime("%Y-%m-%d %H:%M")<CR>
