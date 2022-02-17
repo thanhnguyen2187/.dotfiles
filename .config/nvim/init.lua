@@ -111,6 +111,19 @@ require('packer').startup(function()
 
   use 'janet-lang/janet.vim'
 
+  -- use 'fatih/vim-go'
+  -- nvim_lsp.gopls.setup{
+  --   cmd = {"gopls", "serve"},
+  --   settings = {
+  --     gopls = {
+  --       analyses = {
+  --         unusedparams = true,
+  --       },
+  --       staticcheck = true,
+  --     }
+  --   }
+  -- }
+
   use {
     'junegunn/fzf',
     run = './install --bin',
