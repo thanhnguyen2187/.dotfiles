@@ -33,9 +33,12 @@ require('packer').startup(function()
 
   use 'jiangmiao/auto-pairs'
 
-  use 'rose-pine/neovim'
-  vim.g.rose_pine_variant = 'moon'
-  vim.cmd('colorscheme rose-pine')
+  use 'rebelot/kanagawa.nvim'
+  vim.cmd('colorscheme kanagawa')
+
+  -- use 'rose-pine/neovim'
+  -- vim.g.rose_pine_variant = 'main'
+  -- vim.cmd('colorscheme rose-pine')
 
   use {
     'nvim-lualine/lualine.nvim',
@@ -45,7 +48,7 @@ require('packer').startup(function()
     options = {
       section_separators = '',
       component_separators = '',
-      theme = 'rose-pine',
+      theme = 'kanagawa',
     },
     tabline = {
       lualine_a = {'buffers'},
