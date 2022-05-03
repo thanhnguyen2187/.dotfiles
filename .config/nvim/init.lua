@@ -124,6 +124,13 @@ require('packer').startup(function()
   --   }
   -- }
 
+  use 'jpalardy/vim-slime'
+  vim.g.slime_target = 'tmux'
+  vim.g.slime_default_config = {
+    socket_name = 'default',
+    target_pane = [[{last}]],
+  }
+
   use {
     'junegunn/fzf',
     run = './install --bin',
