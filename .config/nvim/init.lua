@@ -99,15 +99,15 @@ require('packer').startup(function()
 
   use 'olical/conjure'
 
-  use 'wlangstroth/vim-racket'
-  nvim_lsp.racket_langserver.setup(
-    coq.lsp_ensure_capabilities({
-      on_attach = on_attach,
-      flags = {
-        debounce_text_changes = 150,
-      }
-    })
-  )
+  -- use 'wlangstroth/vim-racket'
+  -- nvim_lsp.racket_langserver.setup(
+  --   coq.lsp_ensure_capabilities({
+  --     on_attach = on_attach,
+  --     flags = {
+  --       debounce_text_changes = 150,
+  --     }
+  --   })
+  -- )
 
   use 'janet-lang/janet.vim'
 
